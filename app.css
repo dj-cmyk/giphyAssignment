@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(34, 32, 32);
+    color: seashell;
+}
+
+h1 {
+    text-align: center;
+    margin: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.gifForm {
+    text-align: center;
+    margin: 5px;
+}
+
+input {
+    margin: 5px;
+}
+
+#gifContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+#gifContainer > div {
+    margin: 10px;
+}
+
+
